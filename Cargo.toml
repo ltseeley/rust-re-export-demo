@@ -1,0 +1,9 @@
+[package]
+name = "rust-re-export-demo"
+version = "0.1.0"
+authors = ["Logan Seeley <seeley@bitwise.io>"]
+edition = "2018"
+
+[dependencies]
+sawtooth = { git = "https://github.com/Cargill/sawtooth-lib", branch = "ltseeley-transaction-batch-updates", features = ["validator-internals"] }
+transact = "0.2"
